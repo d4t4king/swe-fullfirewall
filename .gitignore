@@ -33,3 +33,9 @@ inc/
 /MANIFEST.bak
 /pm_to_blib
 /*.zip
+
+# CUSTOM:  Don't store archive files in git
+*.tar.bz2
+*.tar.xz
+*.tar.gz
+*.zip
